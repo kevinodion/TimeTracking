@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bF+DYe4y+0CMxH0cFlE9wPFleGGL1NgPNzOFzEZvLZO0vMzjmczWyDSgOupGqRrRX4kXjilXwzo0yOLVVGnI5g==",
+  "dgSpecHash": "UmVhsrl0SGpVg1DeMXQ3Qa1+NpqKJChVdCHp0TQyT9sOqjRZY0c+ohtawKlT1u+T8jACvmvtv2YovTaVO1Ui9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.Model\\TimeTracking.Model.csproj",
+  "projectFilePath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.Model\\TimeTracking.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

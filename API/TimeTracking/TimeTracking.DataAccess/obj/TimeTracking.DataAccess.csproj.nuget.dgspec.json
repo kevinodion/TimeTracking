@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj": {}
+    "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj": {
+    "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj",
         "projectName": "TimeTracking.DataAccess",
-        "projectPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj",
+        "projectPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj",
         "packagesPath": "C:\\Users\\ps082469\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

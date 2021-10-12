@@ -5705,11 +5705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.Core\\TimeTracking.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.Core\\TimeTracking.Core.csproj",
       "projectName": "TimeTracking.Core",
-      "projectPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.Core\\TimeTracking.Core.csproj",
+      "projectPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.Core\\TimeTracking.Core.csproj",
       "packagesPath": "C:\\Users\\ps082469\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.Core\\obj\\",
+      "outputPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5731,11 +5731,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj"
+            "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.DataAccess\\TimeTracking.DataAccess.csproj"
             },
-            "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.Model\\TimeTracking.Model.csproj": {
-              "projectPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.Model\\TimeTracking.Model.csproj"
+            "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.Model\\TimeTracking.Model.csproj": {
+              "projectPath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.Model\\TimeTracking.Model.csproj"
             }
           }
         }

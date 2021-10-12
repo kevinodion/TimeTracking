@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nKh4TKo4QDUQOl4Fh6vaw4ThP8SHVM+rSJg2T6hqQCOQNDp0+0Vsbr0p9ANjfk9YTY53IxAcuxREnwc/KeVY/A==",
+  "dgSpecHash": "DOljD7HnbWePqO4+aL+AwuHz2DD6LV67k7JKCCrZxKyWARWMedFyexl9nprF8L5TNQyi1UZwYCUFUxAY14oc9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.Core\\TimeTracking.Core.csproj",
+  "projectFilePath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.Core\\TimeTracking.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ps082469\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

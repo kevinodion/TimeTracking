@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vwFyROFz0q+XfT9CEvE4ufwJ8X4N0rvxzo0wVVGb/YAY9EPycL7sU2yXXlvXu5hupF5acNEjIjyH5l0YTHxQlQ==",
+  "dgSpecHash": "5v8XKfU0xxZ2vx7NplekZ0hTeoshrNCPjj1DHkPqWc+5xO8CLvUBDNApNPu8o2ZFlbWdcfzvR3vMGmbgW3NYVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\API\\TimeTracking\\TimeTracking.WebAPI\\TimeTracking.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\ps082469\\Documents\\Git\\Exam\\TimeTracking\\API\\TimeTracking\\TimeTracking.WebAPI\\TimeTracking.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ps082469\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ps082469\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.10\\microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
