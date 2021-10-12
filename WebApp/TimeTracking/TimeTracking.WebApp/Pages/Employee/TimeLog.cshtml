@@ -1,0 +1,110 @@
+﻿@page
+@model TimeTracking.WebApp.Pages.Employee.TimeLogModel
+@{
+    //User.Claims.SingleOrDefault(w => w.Type == "AccessToken").Value
+}
+
+<div class="card">
+    <h5 class="card-header">Employee Time Log</h5>
+    <div class="card-body">
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Employee Name</th>
+                    <th>Clock-in Time</th>
+                    <th>Clock-out Time</th>
+                    <th>Active</th>
+                    <th></th>
+                </tr>
+            </thead>
+            @if (Model.EmployeeList != null)
+            {
+                <tbody>
+                    @foreach (var employee in Model.EmployeeList.Employees)
+                    {
+                        <tr>
+                            <td>@(Model.EmployeeList.Employees.IndexOf(employee) + 1)</td>
+                            <td>@employee.EmployeeName</td>
+                            <td>@employee.ClockInTime</td>
+                            <td>@employee.ClockOutTime</td>
+                            <td>@employee.IsActive</td>
+                            <td>
+                                <a onclick="editTimeLog('?handler=Edit&id=@employee.ID','Edit')" class="btn btn-info text-white">Edit</a>
+                                <a onclick="deleteTimeLog('?handler=Delete&id=@employee.ID')" class="btn btn-info text-white">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            }
+        </table>
+    </div>
+</div>
+
+<div id="modalContainer"></div>
+
+<script>
+    $(document).ready(function () {
+        var modalContainer = $('#modalContainer');
+
+        editTimeLog = (url, title) => {
+            try {
+                $.ajax({
+                    type: 'GET',
+                    url: url,
+                    success: function (data) {
+                        modalContainer.html(data);
+                        $('#editEmployeeTimeLog').modal('show');
+                    },
+                    error: function (err) {
+                        console.log(err)
+                    }
+                });
+                return false;
+            }
+            catch (ex) {
+                console.log(ex)
+            }
+        }
+
+        updateTimeLog = form => {
+            try {
+                $.ajax({
+                    type: 'POST',
+                    url: form.action,
+                    data: new FormData(form),
+                    contentType: false,
+                    processData: false,
+                    success: function (res) {
+                        $('#editEmployeeTimeLog').modal('hide');
+                        modalContainer.html('');
+                    },
+                    error: function (err) {
+                        console.log(err)
+                    }
+                })
+            }
+            catch (ex) {
+                console.log(ex)
+            }
+        }
+
+        deleteTimeLog = (url) => {
+            try {
+                $.ajax({
+                    type: 'GET',
+                    url: url,
+                    processData: false,
+                    success: function (data) {
+                    },
+                    error: function (err) {
+                        console.log(err)
+                    }
+                });
+            }
+            catch (ex) {
+                console.log(ex)
+            }
+        }
+    });
+</script>

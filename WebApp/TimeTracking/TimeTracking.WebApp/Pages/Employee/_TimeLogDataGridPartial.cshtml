@@ -1,0 +1,50 @@
+﻿@model EmployeeListModel
+
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Employee Name</th>
+            <th>Clock-in Time</th>
+            <th>Clock-out Time</th>
+            <th>Active</th>
+            <th></th>
+        </tr>
+    </thead>
+    @*@if (Model.EmployeeList != null)
+        {
+            <tbody id="dataGrid">
+                @foreach (var employee in Model.EmployeeList.Employees)
+                {
+                    <tr>
+                        <td>@(Model.EmployeeList.Employees.IndexOf(employee) + 1)</td>
+                        <td>@employee.EmployeeName</td>
+                        <td>@employee.ClockInTime</td>
+                        <td>@employee.ClockOutTime</td>
+                        <td>@employee.IsActive</td>
+                        <td>
+                            <a onclick="editTimeLog('?handler=Edit&id=@employee.ID','Edit')" class="btn btn-info text-white">Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        }*@
+
+    @if (Model.Employees.Count() > 0)
+    {
+        @foreach (var employee in Model.Employees)
+        {
+            <tr>
+                <td>@(Model.Employees.IndexOf(employee) + 1)</td>
+                <td>@employee.EmployeeName</td>
+                <td>@employee.ClockInTime</td>
+                <td>@employee.ClockOutTime</td>
+                <td>@employee.IsActive</td>
+                <td>
+                    <a onclick="editTimeLog('?handler=Edit&id=@employee.ID','Edit')" class="btn btn-info text-white">Edit</a>
+                </td>
+            </tr>
+        }
+    }
+</table>
+
